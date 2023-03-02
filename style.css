@@ -1,0 +1,115 @@
+body {
+  background-color: #E8E8E8;
+  color: #2C3E50;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #D35400;
+  font-family: 'Climate Crisis', cursive;
+  letter-spacing: 5px;
+  padding: 20px;
+  margin-top: -10px;
+}
+
+h2 {
+  color: #34495E;
+  font-weight: normal;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #528fa6;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #D35400;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+#Portrait {
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  box-shadow: 4px 7px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background-color: #F7F7F7;
+  padding: 50px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  margin: 80px 0 50px;
+}
+
+.partie {
+  background-color: #F7F7F7;
+  padding: 30px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin: 50px 0;
+}
+
+.liste {
+  list-style: none;
+  font-size: 60px;
+  display: inline;
+  padding: 10px;
+  margin: 0;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
